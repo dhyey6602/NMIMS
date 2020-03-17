@@ -310,9 +310,13 @@ input{
 }
 .footer-section {
     background: #821723;
-    padding: 24px 0;
-    color: #fff
+    color: #fff;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* height: 2.5rem;  */
 }
+
 
 .footer-section a {
     color: #fff;
