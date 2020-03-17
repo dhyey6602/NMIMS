@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
 }
 .header_left{
     background-color: #d4202d;
@@ -16,6 +20,7 @@
     font-weight: bold;
     text-align: center;
     margin-top: 1rem;
+    font-family: 'Merriweather', serif;
 }
 .header_right_halo{
     font-size: 1rem;    
@@ -39,6 +44,7 @@
     /* width: 60%; */
     color: white;
     padding: 2rem;
+    font-family: 'Merriweather', serif;
     /* float: left; */
 }
 .main_left_header{
@@ -113,6 +119,7 @@ input{
 .main_card4_content_heading{
     font-size: 2.5rem;
     font-weight: normal;
+    font-family: 'Merriweather', serif;
 }
 .main_executivePrograms{
     background-color: black;
@@ -128,6 +135,7 @@ input{
 .main_executivePrograms_heading{
     text-align: center;
     margin: 2rem 0;
+    font-family: 'Merriweather', serif;
 }
 .main_executivePrograms img{
     margin: 0 0.3rem;
@@ -185,10 +193,12 @@ input{
   .main_lead_heading{
       font-size: 2.5rem;
       margin: 2rem 1rem ;
+      font-family: 'Merriweather', serif;
   }
   .main_lead_box_heading{
     margin-bottom: 2rem;
     font-size: 1.2rem;
+    font-family: 'Merriweather', serif;
   }
   .logo_box{
       text-align: right;
@@ -198,6 +208,7 @@ input{
         background-color: black;
         color: white;
         padding: 2rem;
+        font-family: 'Merriweather', serif;
     }
     .main_about_nmims{
         margin: 2rem;
@@ -260,9 +271,11 @@ input{
     
     
 }
-.authorize_right_header ul li{
+.authorize_right_header{
     /* float: left; */
     /* width: 50%; */
+    font-family: 'Merriweather', serif;
+
 }
 .authorize_right_content{
     /* float: right; */
@@ -283,6 +296,7 @@ input{
 .main_regionalOffice_left_heading{
     font-size: 1.4rem;
     margin-bottom: 1rem;
+    font-family: 'Merriweather', serif;
 }
 .footer-section {
     background: #821723;
