@@ -4,8 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body{
     font-family: 'Roboto', sans-serif;
+    width: 100vw;
 }
 .header_left{
     background-color: #d4202d;
@@ -51,7 +60,8 @@ body{
     font-size: 4rem;
     font-weight: 500;
     margin-top: 5rem;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
+    padding: 1rem;
     line-height: 4rem;
 }
 .main_left_cards{
@@ -321,5 +331,8 @@ input{
     }
     .main_executivePrograms_block3{
         height: 10rem;
+    }
+    .main_left_header{
+        font-size: 3rem;
     }
 }
