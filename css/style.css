@@ -345,7 +345,7 @@ input{
     background: #821723;
     color: #fff;
     position: absolute;
-  bottom: 0;
+  top:100%;
   right: 0;
   width: 100%;
   /* right:0; left:0; */
