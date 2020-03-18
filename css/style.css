@@ -321,8 +321,7 @@ label{
     background-color: white;
     /* overflow: hidden; */
     border-bottom: solid 10px #d4202d;
-    
-    
+    /* margin-left: 2rem; */
 }
 .authorize_right_header{
     /* float: left; */
@@ -391,5 +390,9 @@ label{
     }
     .header_right{
         height: 4rem;
+    }
+    .main_connect_right{
+    transform: translateX(1rem);
+    margin-left: 2rem;
     }
 }
