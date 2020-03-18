@@ -37,7 +37,7 @@ body{
     background-color: #d4202d;
     /* width: 50%; */
     padding: 1rem 1rem 0.5rem 5rem;
-    float: left;
+    /* float: left; */
 }
 .header_right{
     /* width: 40%; */
@@ -47,6 +47,15 @@ body{
     text-align: center;
     margin-top: 1rem;
     font-family: 'Merriweather', serif;
+    position: relative;
+    /* clear: both; */
+}
+.header_right_title{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
 }
 .header_right_halo{
     font-size: 1rem;    
@@ -121,31 +130,33 @@ body{
     font-size: 1.5rem;
 }
 label{
-    display: block;
-    margin-top: 0.8rem;
-    margin-bottom: 0.2rem;
+    margin: -1.5rem 0;
 }
-input{
-    width: 100%;
-    padding: 0.2rem;
+.shadow{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .6);
 }
 .main_right ul li{
     list-style: none;
 }
 .main_card4{
     clear: both;
+    margin: 0;
+    
+    background-color: white;
     /* float: left; */
 }
 .main_card4_image{
     /* float: left; */
+    margin: 0;
 }
+
 .main_card4_content{
     float: left;
     width: 75%;
     background-color: white;
     text-align: justify;
     padding: 2rem;
-
+    margin: 0;
 }
 .main_card4_content_heading{
     font-size: 2.5rem;
@@ -165,7 +176,7 @@ input{
 }
 .main_executivePrograms_heading{
     text-align: center;
-    margin: 2rem 0;
+    margin: 1rem 0 0.5rem 0;
     font-family: 'Merriweather', serif;
 }
 .main_executivePrograms img{
@@ -175,7 +186,7 @@ input{
     margin: 1rem;
 }
 .main_executivePrograms_block1, .main_executivePrograms_block2, .main_executivePrograms_block3{
-    float: left;
+    /* float: left; */
     /* width: 25%; */
     padding: 1rem;
     /* overflow: hidden; */
@@ -186,7 +197,7 @@ input{
 }
 .main_executivePrograms_block1{
     /* width: 40%; */
-    padding: 2rem;
+    padding-left: 2rem ;
 }
 .main_executivePrograms_blocks ul {
     float: left;
@@ -365,9 +376,7 @@ input{
     .main_executivePrograms_block2{
         height: 10rem;
     }
-    .main_executivePrograms_block3{
-        height: 10rem;
-    }
+    
     .main_left_header{
         font-size: 3rem;
     }
@@ -379,5 +388,8 @@ input{
     }
     .main_about_box{
         height: 8rem;
+    }
+    .header_right{
+        height: 4rem;
     }
 }
