@@ -4,6 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width: 56.25em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (min-width: 112.5em) {
+    html {
+        font-size: 75%;
+    }
+}
 html,body
 {
     width: 100%;
@@ -39,6 +56,10 @@ body{
 }
 .maroon_text{
     color:maroon;
+}
+.maroon_back{
+    background-color:#d4202d;
+    color:white;
 }
 .main_banner{
     background-image: url(../images/professional_banner.jpg);
@@ -160,7 +181,7 @@ input{
     /* overflow: hidden; */
     border: solid white 2px;
     margin: 0.5rem;
-    height: 20rem;
+    height: 18rem;
     font-size: 1rem;
 }
 .main_executivePrograms_block1{
@@ -186,7 +207,7 @@ input{
   }
   .blue_back{
       background-color: #345896;
-      color: white;
+      color: white; 
   }
   .grey_back{
       background-color: #a19f9f7e;
@@ -197,8 +218,10 @@ input{
   }
   .main_lead_box{
       padding: 1rem;
-      height: 18rem;
-      font-size: 0.8rem;
+      height: 20rem;
+      font-size: 0.9rem;
+      position: relative;
+      margin-bottom: 0.5rem;
   }
   .main_lead_heading{
       font-size: 2.5rem;
@@ -212,6 +235,9 @@ input{
   }
   .logo_box{
       text-align: right;
+      position: absolute;
+      bottom: 1rem;
+      right: 1rem;
   }
   .main_about{
         clear: both;
@@ -237,7 +263,8 @@ input{
         background-color: white;
         height: 6rem;
         margin: 0.5rem 0;
-        padding: 1.2rem;
+        padding: 1rem;
+        position: relative;
     }
     .main_about_box_content{
         float: left;
@@ -245,6 +272,9 @@ input{
     .main_about_box-image{
         margin-left: 2rem;
         text-align: right;
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
     }
     .main_about_box h3{
         font-size: 1.3rem;
@@ -254,6 +284,7 @@ input{
     background-color: #d4202d;  
     padding: 1rem;
     padding-bottom: 0rem;
+    /* margin: 0; */
 }
 .main_connect_left p{
     line-height: 0.5rem;
@@ -271,10 +302,11 @@ input{
 }
 .main_connect_left_content{
     color: white;
-    margin:2rem;
+    margin-top:2rem;
+    text-align: left;
 }
 .main_connect_right{
-    padding: 2rem;
+    padding: 1rem;
     background-color: white;
     /* overflow: hidden; */
     border-bottom: solid 10px #d4202d;
@@ -289,10 +321,11 @@ input{
 }
 .authorize_right_content{
     /* float: right; */
-    padding: 1rem;
+    padding: 0.2rem 0rem 0.2rem 2rem;
+    text-align: left;
 }
 .note{
-    margin-top: 1rem;
+    margin: 0.2rem 0.5rem;
 }
 .main_regionalOffice{
     /* margin: 2rem; */
@@ -314,16 +347,13 @@ input{
     position: absolute;
   bottom: 0;
   width: 100%;
+  /* right:0; left:0; */
   /* height: 2.5rem;  */
 }
 
 
-.footer-section a {
-    color: #fff;
-    text-decoration: none;
-}
-
 @media(max-width:800px){
+    
     .main_card4_image{
         display: none;
     }
@@ -338,5 +368,14 @@ input{
     }
     .main_left_header{
         font-size: 3rem;
+    }
+    .main_lead_box_heading{
+        font-size: 1rem;
+    }
+    .main_lead_box{
+        height: 10rem;
+    }
+    .main_about_box{
+        height: 8rem;
     }
 }
