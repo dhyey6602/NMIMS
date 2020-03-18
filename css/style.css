@@ -348,6 +348,7 @@ input{
   top:100%;
   right: 0;
   width: 100%;
+  overflow: hidden;
   /* right:0; left:0; */
   /* height: 2.5rem;  */
 }
