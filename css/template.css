@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    letter-spacing: .05rem;
+    font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width: 56.25em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (min-width: 112.5em) {
+    html {
+        font-size: 75%;
+    }
+}
+
+.header_left {
+    background-color: #d4202d;
+}
+
+.header_right {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Merriweather', serif;
+}
+.banner_right{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+}
+
+.red_text{
+    color: #d4202d;
+}
+.maroon_text{
+    color:maroon;
+}
+.blue_text{
+    color: rgb(34, 73, 146);
+    font-weight: 600;
+}
+table td, th{
+    border: solid 1px black;
+    padding: 0.4rem 1rem;
+}
+table th{
+    color: rgb(34, 73, 146);
+}
+.footer-section {
+    background: #821723;
+    color: #fff;
+  top:100%;
+  right: 0;
+  overflow: hidden;
+  /* right:0; left:0; */
+  /* height: 2.5rem;  */
+}
+.program_features li{
+    text-align: justify;
+}
+li{
+    margin: 0.1rem 0;
+}
+.fee_title{
+    background-color: rgb(34, 73, 146);
+    color: white;
+    padding: 0.3rem 0;
+    width: 100%;
+    text-align: center;
+}
+.row {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
