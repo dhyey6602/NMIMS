@@ -28,6 +28,23 @@ html{
         font-size: 75%;
     }
 }
+.nav-top ul{
+    margin: 0;
+    padding: 1rem;
+}
+.nav-top ul li{
+    display: inline-block;
+}
+.nav-top a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: black;
+    margin-top: 0.5rem !important;
+}
+.nav-top a:hover{
+    text-decoration: none;
+    color: #821723;
+}
 
 .header_left {
     background-color: #d4202d;
