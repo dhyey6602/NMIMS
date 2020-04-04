@@ -352,13 +352,13 @@ label{
     font-family: 'Merriweather', serif;
 }
 .footer-section {
-    background: #821723;
-    color: #fff;
     position: absolute;
+  background: #821723;
+    color: #fff;
   top:100%;
   right: 0;
-  width: 100%;
   overflow: hidden;
+  width: 100%;
   /* right:0; left:0; */
   /* height: 2.5rem;  */
 }
