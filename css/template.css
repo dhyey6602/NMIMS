@@ -28,24 +28,19 @@ html{
         font-size: 75%;
     }
 }
-.nav-top ul{
-    margin: 0;
-    padding: 1rem;
-}
-.nav-top ul li{
-    display: inline-block;
-}
-.nav-top a{
-    text-decoration: none;
-    padding: 0.5rem;
+#nav-top a{
     color: black;
-    margin-top: 0.5rem !important;
+    border-right: black 0.5px solid;
+    margin: 0;
+    padding: 0 3rem;
 }
-.nav-top a:hover{
+#nav-top .nav-item .nav-link:hover{
     text-decoration: none;
-    color: #821723;
+    color: #d4202d;
+}  
+#last a{
+    border-right: none;
 }
-
 .header_left {
     background-color: #d4202d;
 }
