@@ -102,3 +102,9 @@ li{
     margin-left: auto !important;
     margin-right: auto !important;
   }
+  .vertical_centre{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+  }
