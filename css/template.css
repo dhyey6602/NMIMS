@@ -41,8 +41,10 @@ html{
 #last a{
     border-right: none;
 }
+
 .header_left {
     background-color: #d4202d;
+    padding: 1rem 1rem 0.5rem 5rem;
 }
 
 .header_right {
@@ -61,6 +63,7 @@ html{
 
 .red_text{
     color: #d4202d;
+    font-family: 'Merriweather', serif;
 }
 .maroon_text{
     color:maroon;

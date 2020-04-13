@@ -31,6 +31,9 @@
             height: 400px;
             width: auto;
         }
+        .bg-grey{
+            background-color: #ccc;
+        }
         .courses{
             display: flex;
     flex-direction:column;
@@ -46,7 +49,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#eee;">
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -59,13 +62,7 @@
                     <a class="nav-link" href="tel:7091346907">Call Us: 7091346907</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="courses.html">Programs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="faculty.html">Faculty</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="career.html">Carrer Services</a>
+                    <a class="nav-link" href="aboutUs.html">About Us</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -76,27 +73,32 @@
                         <a class="dropdown-item" href="corporate.html">For Corporates</a>
                         <a class="dropdown-item" href="advantage.html">NMIMS Advantage</a>
                         <a class="dropdown-item" href="alumni.html">Alumni</a> </div>
+                </li>                
+                <li class="nav-item">
+                    <a class="nav-link" href="faculty.html">Faculty</a>
                 </li>
-                <li class="nav-item" >
-                    <a class="nav-link" href="aboutUs.html">About Us</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Programs</a>
                 </li>
                 <li class="nav-item" id="last">
-                    <a class="nav-link" href="template/inquire.html">  Inquire Now</a>
+                    <a class="nav-link" href="career.html">Career Services</a>
                 </li>
+                
+                
             </ul>
         </div>
     </nav>
     <div class="header row">
         <div class="header_left col-lg-12 col-md-12 text-center p-2">
-            <img src=" images/nmims_logo.png" alt="" class="img-fluid">
+            <a href="index.html"><img src=" images/nmims_logo.png" alt="" class="img-fluid"></a>
         </div>
         <div class="header_right col-lg-12 col-md-12">
             <p class="header_right_h1 header_right_title">Authorized <br> <span class="red_text"> Enrolment Partner
                 </span></p>
         </div>
     </div>
-    <main class="container" id="courses">
-        <div class="row my-5">
+    <main id="courses">
+        <div class="row my-5 container">
             <div class="col-lg-6 col-sm-12 courses">
             <h3>POST GRADUATE DIPLOMA IN MANAGEMENT</h3>
                 <ul>
@@ -118,8 +120,8 @@
                 <img src="images/25-Post-Graduate-Diploma-in-Business-Management-1.jpg" class="img-fluid" alt="">
             </div>
         </div>
-        <div class="row my-5">
-            
+        <div class="my-5 bg-grey" >
+            <div class="container row">
             <div class="col-lg-6 d-md-none d-lg-block" id="hide">
                 <img src="images/22-PGDBM-Marketing-Management.jpg" class="img-fluid" alt="">
             </div>
@@ -131,7 +133,8 @@
                 </ul>
             </div>
         </div>
-        <div class="row my-5">
+        </div>
+        <div class="row my-5 container">
             <div class="col-lg-6 col-sm-12 courses">
                 <h3>DIPLOMA PROGRAMS</h3> <br>
                 <ul>
