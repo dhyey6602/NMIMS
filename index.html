@@ -367,11 +367,11 @@
     </div>
 
     <!-- try -->
-
+<div class="popup">
     <div id="boxes">
         <div id="dialog" class="window mx-auto">
             <img src="images/nmims_logo_2.jpg" alt="">
-            <p class="m-2"><b> Let Us Get In Touch With You!</b></p> <p>Get your free counselling now</p>
+            <p>Get your free counselling now</p>
             <p class="bottom_spam mx-auto">We do not spam</p>
             
             <a href="template/inquire.html" class="btn btn-danger">Inquire Now</a>
@@ -381,11 +381,20 @@
         </div>
         <div id="mask"></div>
     </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+</div>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
     <script>
         $(document).ready(function () {
-
+          if (!$.cookie('alert')) { 
+            $('.popup').show();    
+            var date = new Date();      
+            date.setTime(date.getTime() + 24 * 60 * 60 * 1000);  
+            $.cookie('alert', true, { expires: date });
+          }else{
+            $('.popup').hide(); 
+          }
             var id = '#dialog';
 
             //Get the screen height and width
