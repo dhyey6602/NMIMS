@@ -402,4 +402,70 @@ label{
     transform: translateX(1rem);
     /* margin-left: 2rem; */
     }
+    /* .btn-whatsapp{
+        display: none;
+    } */
+    #dialog{
+        width: 80%;
+        margin-left: 0;
+    }
 }
+
+
+.btn-whatsapp img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 5px;
+}
+.btn-whatsapp {
+    z-index: 5;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+
+#mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9000;
+    background-color: #000;
+    display: none;
+  }
+  
+  #boxes .window {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* width: 440px; */
+    height: 200px;
+    display: none;
+    z-index: 9999;
+    /* padding: 20px; */
+    border-radius: 15px;
+    text-align: center;
+    font-family: inherit;
+  }
+  
+  #boxes #dialog {
+    /* width: 750px; */
+    height: 300px;
+    padding: 2rem;
+    background-color: #ffffff;
+    font-size: 15pt;
+  }
+  
+  #close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+  }
+  .bottom_spam{
+      position: absolute;
+      bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+  }

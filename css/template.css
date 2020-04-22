@@ -111,3 +111,14 @@ li{
     justify-content: center;
     align-content: center;
   }
+  .btn-whatsapp img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 5px;
+}
+.btn-whatsapp {
+    z-index: 5;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
