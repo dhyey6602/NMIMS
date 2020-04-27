@@ -352,7 +352,9 @@ label{
 
 
 @media(max-width:800px){
-    
+    body{
+        font-size: 1em;
+    }
     .main_card4_image{
         display: none;
     }
