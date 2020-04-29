@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#eee;">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color:#eee;">
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -45,6 +45,9 @@
             <ul class="navbar-nav mr-auto" id="nav-top">
                 <li class="nav-item" id="call">
                     <a class="nav-link" href="tel:7091346907">Call Us: 7091346907</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="aboutUs.html">About Us</a>
@@ -75,7 +78,7 @@
     </nav>
     <div class="header row">
         <div class="header_left col-lg-8 col-md-12 col-sm-12 text-center">
-            <a href="index.html"><img src="images/nmims_logo.png" alt="" class="header_logo img-fluid"></a>
+            <a href="/"><img src="images/nmims_logo.png" alt="" class="header_logo img-fluid"></a>
         </div>
         <div class="header_right col-lg-4 col-md-12 col-sm-12">
             <p class="header_right_h1 header_right_title">Authorized <span class="red_text"> Enrolment Partner </span>
@@ -89,13 +92,25 @@
                 <p class="main_left_header">Define your <br> professional <br> success </p>
                 <div class="main_left_cards ml-2 ">
                     <div class="card1">
-                        <p class="card1_content">Among India's Top 10 <br><span>Management Universities</span> </p>
+                        <p class="card1_content">India's Number 1 <br><span>Distance Management University</span> </p>
                     </div>
                     <div class="card2">
                         <p class="card2_content">Study <br> <span>With the world</span></p>
                     </div>
                     <div class="card3">
                         <p class="card3_content">Balance <br> <span>work, life & study</span></p>
+                    </div>
+                    <div class="card2">
+                        <p class="card2_content">55000+ <br> <span>active students</span></p>
+                    </div>                    
+                    <div class="card3">
+                        <p class="card3_content">225+ <br> <span>distinguished faculty</span></p>
+                    </div>
+                    <div class="card2">
+                        <p class="card2_content">9500+ <br> <span>alumnies</span></p>
+                    </div>
+                    <div class="card3">
+                        <p class="card3_content">Catagory 1 <br> <span>autonomy by UGC</span></p>
                     </div>
                 </div>
             </div>
@@ -116,12 +131,12 @@
                             <h2 class="main_card4_content_heading">Be Future-Ready with <span class="maroon_text">NMIMS
                                     Global
                                     Access</span></h2>
-                            <p>Choose from programs that bring the rigour of on-campus programs to an connected
+                            <p class="large">Choose from programs that bring the rigour of on-campus programs to an connected
                                 tech-enabled platform. Engage in actual challenges encountered by business leaders,
                                 understand change & master managing it, develop a growth mindset with a business outlook
                                 and connect with a community of like minded individuals. Gain from course ware designed
                                 by globally acclaimed industry veterans and academicians. </p>
-                            <p>All programs are specifically designed keeping the priorities of working professionals at
+                            <p class="large">All programs are specifically designed keeping the priorities of working professionals at
                                 the core thus, allowing you to balance important aspects of your life without losing any
                                 momentum essential for succeeding. </p>
                         </div>
@@ -131,7 +146,7 @@
 
             <div class="main_executivePrograms group row col-lg-12 mx-auto my-3">
                 <div class="main_executivePrograms_blocks col-lg-11 mx-auto">
-                    <h2 class="main_executivePrograms_heading">Executive Programs</h2>
+                    <h2 class="main_executivePrograms_heading">Programs</h2>
                     <div class="row">
                         <div class="main_executivePrograms_block1 col-lg-5">
                             <h3>POST GRADUATE DIPLOMA IN MANAGEMENT</h3>
@@ -314,12 +329,12 @@
                         </ul>
                     </div>
                     <div class="authorize_right_content row">
-                        <p>
+                        <p class="large">
                             As an official Authorised Enrolment Partner of NGA-SCE, we provide
                             logistical support to the students enrolled through their respective centres and
                             assist & facilitate prospective students to take admissions.
                         </p>
-                        <p class="note"><b>Note*:</b> Program delivery remains a prerogative of
+                        <p class="note large"><b>Note*:</b> Program delivery remains a prerogative of
                             NGA-SCE alone,
                             <br> AEP (Suruchi) has no role in it.</p>
                     </div>
@@ -331,7 +346,7 @@
                     <p class="main_regionalOffice_left_heading">NGA-SCE Regional<span class="maroon_text">
                             Offices</span>
                     </p>
-                    <p>
+                    <p class="large">
                         NGA-SCE holds a strong national presence with regional offices in Mumbai, Delhi,
                         Ahmedabad, Navi Mumbai, Pune, Bangalore, Hyderabad, Kolkata & Indore.
                     </p>
@@ -351,9 +366,90 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <div class="btn-whatsapp">
+        <a target="_blank"
+            href="https://api.whatsapp.com/send?phone=+917091346907&text=Hi%20I%20would%20like%20to%20get%20more%20information">
+            <img src="images/whatsapp.jpg" alt="">
+        </a>
+    </div>
+
+    <div class="popup">
+        <div id="boxes">
+            <div id="dialog" class="window mx-auto">
+                <img src="images/nmims_logo_2.jpg" alt="">
+                <p>Get your free counselling now</p>
+                <p class="bottom_spam mx-auto">We do not spam</p>
+                
+                <a href="template/inquire.html" class="btn btn-danger">Inquire Now</a>
+                <div id="close">
+                     <a href="#" class="close">×</a>  
+                </div>
+            </div>
+            <div id="mask"></div>
+        </div>
+    </div>
+<!-- mask -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script>
+    $(document).ready(function () {
+      if (!$.cookie('alert')) { 
+        $('.popup').show();    
+        var date = new Date();      
+        date.setTime(date.getTime() + 24 * 60 * 60 * 1000);  
+        $.cookie('alert', true, { expires: date });
+      }else{
+        $('.popup').hide(); 
+      }
+        var id = '#dialog';
+
+        //Get the screen height and width
+        var maskHeight = $(document).height();
+        var maskWidth = $(window).width();
+
+        //Set heigth and width to mask to fill up the whole screen
+        $('#mask').css({
+            'width': maskWidth,
+            'height': maskHeight
+        });
+
+        //transition effect
+        $('#mask').fadeIn(500);
+        $('#mask').fadeTo("slow", 0.9);
+
+        //Get the window height and width
+        var winH = $(window).height();
+        var winW = $(window).width();
+
+        //Set the popup window to center
+        $(id).css('top', winH / 2 - $(id).height() / 2);
+        $(id).css('left', winW / 2 - $(id).width() / 2);
+
+        //transition effect
+        $(id).fadeIn(2000);
+
+        //if close button is clicked
+        $('.window .close').click(function (e) {
+            //Cancel the link behavior
+            e.preventDefault();
+
+            $('#mask').hide();
+            $('.window').hide();
+        });
+
+        //if mask is clicked
+        $('#mask').click(function () {
+            $(this).hide();
+            $('.window').hide();
+        });
+
+    });
+</script>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+    </script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
     </script>

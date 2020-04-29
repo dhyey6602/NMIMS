@@ -32,7 +32,7 @@ html{
     color: black;
     border-right: black 0.5px solid;
     margin: 0;
-    padding: 0 3rem;
+    padding: 0 2rem;
 }
 #nav-top .nav-item .nav-link:hover{
     text-decoration: none;

@@ -175,7 +175,7 @@ label{
     /* overflow: hidden; */
     border: solid white 2px;
     margin: 0.5rem;
-    height: 20rem;
+    height: 25rem;
     font-size: 1rem;
 }
 .main_executivePrograms_block1{
@@ -352,6 +352,9 @@ label{
 
 
 @media(max-width:800px){
+    .large{
+        font-size: 10px;
+    }
     body{
         font-size: 1em;
     }
