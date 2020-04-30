@@ -339,18 +339,22 @@ label{
     font-family: 'Merriweather', serif;
 }
 .footer-section {
-    position: absolute;
+    /* position: absolute; */
   background: #821723; 
     color: #fff;
-  top:100%;
-  right: 0;
-  overflow: hidden;
+  /* top:100%; */
+  /* right: 0; */
+  /* overflow: hidden; */
   width: 100%;
   /* right:0; left:0; */
   /* height: 2.5rem;  */
 }
 
-
+@media (min-width:800px){
+    #breakpoint{
+        clear: left;
+    }
+}
 @media(max-width:800px){
     .large{
         font-size: 10px;
@@ -368,7 +372,7 @@ label{
         height: 25rem;
     }
     .main_executivePrograms_block2{
-        height: 12rem;
+        height: 15rem;
     }
     .main_left_header{
         font-size: 3rem;
