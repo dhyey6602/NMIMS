@@ -67,6 +67,7 @@ body{
     color: white;
     padding: 2rem;
     font-family: 'Merriweather', serif;
+    overflow: scroll;
     /* float: left; */
 }
 .main_left_header{
@@ -124,7 +125,7 @@ label{
 .main_card4{
     clear: both;
     margin: 0;
-    
+    margin-top: 5rem;
     background-color: white;
     /* float: left; */
 }
@@ -175,12 +176,15 @@ label{
     /* overflow: hidden; */
     border: solid white 2px;
     margin: 0.5rem;
-    height: 25rem;
+    height: 20rem;
     font-size: 1rem;
 }
 .main_executivePrograms_block1{
     /* width: 40%; */
     padding-left: 2rem ;
+}
+.main_executivePrograms_block2{
+    height: 15rem;
 }
 .main_executivePrograms_blocks ul {
     float: left;
