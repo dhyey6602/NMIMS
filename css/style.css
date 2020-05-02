@@ -11,6 +11,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -175,15 +176,12 @@ label{
     /* overflow: hidden; */
     border: solid white 2px;
     margin: 0.5rem;
-    height: 20rem;
+    height: 18rem;
     font-size: 1rem;
 }
 .main_executivePrograms_block1{
     /* width: 40%; */
     padding-left: 2rem ;
-}
-.main_executivePrograms_block2{
-    height: 15rem;
 }
 .main_executivePrograms_blocks ul {
     float: left;
