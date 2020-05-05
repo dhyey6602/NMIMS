@@ -351,7 +351,7 @@ label{
   /* height: 2.5rem;  */
 }
 
-@media (min-width:800px){
+@media (min-width:700px){
     #breakpoint{
         clear: left;
     }
@@ -429,10 +429,11 @@ label{
   
   #boxes .window {
     position: absolute;
+    font-size: 0.8rem;
     left: 0;
     top: 0;
     /* width: 440px; */
-    height: 200px;
+    height: 400px;
     display: none;
     z-index: 9999;
     /* padding: 20px; */
@@ -443,7 +444,7 @@ label{
   
   #boxes #dialog {
     /* width: 750px; */
-    height: 250px;
+    height: 525px;
     padding: 2rem;
     background-color: #ffffff;
     font-size: 15pt;
@@ -457,8 +458,9 @@ label{
   }
   .bottom_spam{
       position: absolute;
-      bottom: 1rem;
+      bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     font-size: 0.9rem;
+    color: #d4202d;
   }
