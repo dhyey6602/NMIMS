@@ -36,11 +36,32 @@ height: 100%;
 padding: 1.5rem;          /* recommended */
 white-space: normal;     /* recommended */
 }
+#exampleSlider3 {
+    position: relative;      /* recommended */
+    }
+    #exampleSlider3 .MS-content {
+    white-space: nowrap;     /* required */
+    overflow: hidden;        /* required */
+    margin: 0 6%;         /*   makes room for L/R arrows */
+    }
+    #exampleSlider3 .MS-content .item {
+    display: inline-block;   /* required */
+    /* width: 25%;           required * Determines number of visible slides */
+    position: relative;      /* required */
+    vertical-align: top;     /* required */
+    overflow: hidden;        /* required */
+    height: 100%;    
+    /* margin: 0 1rem;       recommended */
+    white-space: normal;     /* recommended */
+    }
 @media (max-width: 600px) {
     #exampleSlider2 .MS-content .item{
         width: 100%;
     }
     #exampleSlider .MS-content .item{
+        width: 100%;
+    }
+    #exampleSlider3 .MS-content .item{
         width: 100%;
     }
 }
@@ -51,6 +72,9 @@ white-space: normal;     /* recommended */
     }
     #exampleSlider .MS-content .item{
         width: 25%;
+    }
+    #exampleSlider3 .MS-content .item{
+        width: 100%;
     }
 }
 .btn-whatsapp img{
