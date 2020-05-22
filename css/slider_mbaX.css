@@ -28,6 +28,36 @@
     white-space: normal;
     /* recommended */
 }
+#exampleSlider6 {
+    position: relative;
+    /* recommended */
+}
+
+#exampleSlider6 .MS-content {
+    white-space: nowrap;
+    /* required */
+    overflow: hidden;
+    /* required */
+    margin: 0 6%;
+    /*   makes room for L/R arrows */
+}
+
+#exampleSlider6 .MS-content .item {
+    display: inline-block;
+    /* required */
+    /* width: 25%;           required * Determines number of visible slides */
+    position: relative;
+    /* required */
+    vertical-align: top;
+    /* required */
+    overflow: hidden;
+    /* required */
+    height: 100%;
+    padding: 1.5rem;
+    /* margin: 0 1rem;       recommended */
+    white-space: normal;
+    /* recommended */
+}
 
 #exampleSlider3 {
     position: relative;
@@ -170,6 +200,9 @@
     #exampleSlider5 .MS-content .item {
         width: 100%;
     }
+    #exampleSlider6 .MS-content .item {
+        width: 100%;
+    }
 }
 
 @media (min-width: 900px) {
@@ -188,6 +221,9 @@
     }
     #exampleSlider5 .MS-content .item {
         width: 50%;
+    }
+    #exampleSlider6 .MS-content .item {
+        width: 100%;
     }
     
 }
